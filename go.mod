@@ -1,7 +1,7 @@
 module github.com/grafana/clickhouse-datasource
 
 go 1.21
-toolchain go1.23.7
+toolchain go1.24.1
 
 require (
 	dagger.io/dagger v0.11.6
@@ -24,7 +24,8 @@ require (
 	github.com/adrg/xdg v0.4.0 // indirect
 	github.com/apache/arrow/go/v15 v15.0.2 // indirect
 	github.com/containerd/log v0.1.0 // indirect
-	github.com/distribution/reference v0.5.0 // indirect
+	github.com/containerd/platforms v0.2.1 // indirect
+	github.com/distribution/reference v0.6.0 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/goccy/go-json v0.10.2 // indirect
 	github.com/grafana/dataplane/sdata v0.0.7 // indirect
@@ -36,7 +37,8 @@ require (
 	github.com/jszwedko/go-datemath v0.1.1-0.20230526204004-640a500621d6 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.5 // indirect
 	github.com/moby/docker-image-spec v1.3.1 // indirect
-	github.com/moby/sys/user v0.1.0 // indirect
+	github.com/moby/sys/user v0.3.0 // indirect
+	github.com/moby/sys/userns v0.1.0 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/sosodev/duration v1.2.0 // indirect
 	github.com/vektah/gqlparser/v2 v2.5.15 // indirect
@@ -51,15 +53,15 @@ require (
 	github.com/Azure/go-ansiterm v0.0.0-20230124172434-306776ec8161 // indirect
 	github.com/BurntSushi/toml v1.3.2 // indirect
 	github.com/ClickHouse/ch-go v0.61.5 // indirect
-	github.com/Microsoft/go-winio v0.6.1 // indirect
-	github.com/Microsoft/hcsshim v0.11.4 // indirect
+	github.com/Microsoft/go-winio v0.6.2 // indirect
+	github.com/Microsoft/hcsshim v0.11.7 // indirect
 	github.com/andybalholm/brotli v1.1.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cenkalti/backoff/v4 v4.3.0 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/cheekybits/genny v1.0.0 // indirect
 	github.com/chromedp/cdproto v0.0.0-20230816033919-17ee49f3eb4f // indirect
-	github.com/containerd/containerd v1.7.15 // indirect
+	github.com/containerd/containerd v1.7.27 // indirect
 	github.com/cpuguy83/dockercfg v0.3.1 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.4 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
@@ -158,7 +160,7 @@ require (
 	google.golang.org/genproto/googleapis/api v0.0.0-20240822170219-fc7c04adadcd // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240814211410-ddb44dafa142 // indirect
 	google.golang.org/grpc v1.66.0 // indirect
-	google.golang.org/protobuf v1.34.2 // indirect
+	google.golang.org/protobuf v1.35.2 // indirect
 	gopkg.in/fsnotify/fsnotify.v1 v1.4.7 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
